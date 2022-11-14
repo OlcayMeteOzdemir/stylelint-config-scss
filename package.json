@@ -1,0 +1,23 @@
+{
+	"name": "@meteozdemir/stylelint-config-scss",
+	"version": "1.0.0",
+	"description": "Custom StyleLint settings for SCSS as an extensible shared config.",
+	"main": "index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/OlcayMeteOzdemir/stylelint-config-scss.git"
+	},
+	"keywords": [
+		"scss",
+		"sass",
+		"stylelint",
+		"stylelint-config"
+	],
+	"author": "Olcay Mete Ozdemir",
+	"license": "MIT",
+	"homepage": "https://github.com/OlcayMeteOzdemir/stylelint-config-scss#readme",
+	"dependencies": {},
+	"devDependencies": {},
+	"peerDependencies": {}
+}
