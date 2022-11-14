@@ -24,7 +24,9 @@
 	"author": "Olcay Mete Ozdemir",
 	"license": "MIT",
 	"homepage": "https://github.com/OlcayMeteOzdemir/stylelint-config-scss#readme",
-	"dependencies": {},
+	"dependencies": {
+		"@meteozdemir/stylelint-config-core": "^1.0.0"
+	},
 	"devDependencies": {
 		"@meteozdemir/eslint-config-core": "^1.0.0",
 		"@meteozdemir/markdownlint-config-core": "^1.0.0",
