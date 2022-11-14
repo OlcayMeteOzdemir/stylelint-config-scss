@@ -14,7 +14,8 @@
 		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
 		"rules:unused": "stylelint-find-new-rules -u .stylelintrc.js",
 		"rules:deprecated": "stylelint-find-new-rules -d --no-u .stylelintrc.js",
-		"rules:invalid": "stylelint-find-new-rules -i --no-u .stylelintrc.js"
+		"rules:invalid": "stylelint-find-new-rules -i --no-u .stylelintrc.js",
+		"postinstall": "node ./scripts/postinstall.js"
 	},
 	"repository": {
 		"type": "git",
