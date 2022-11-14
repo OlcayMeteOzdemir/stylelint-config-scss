@@ -6,10 +6,15 @@
 	"scripts": {
 		"js-lint": "eslint **/*.{js,jsx,cjs,mjs,ts}",
 		"js-fix": "eslint --fix **/*.{js,jsx,cjs,mjs,ts}",
+		"style-lint": "stylelint **/*.?(s)css",
+		"style-fix": "stylelint --fix **/*.?(s)css",
 		"md-lint": "markdownlint **/*.md",
 		"md-fix": "markdownlint --fix **/*.md",
 		"prettier-lint": "prettier --check **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
-		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}"
+		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
+		"rules:unused": "stylelint-find-new-rules -u .stylelintrc.js",
+		"rules:deprecated": "stylelint-find-new-rules -d --no-u .stylelintrc.js",
+		"rules:invalid": "stylelint-find-new-rules -i --no-u .stylelintrc.js"
 	},
 	"repository": {
 		"type": "git",
@@ -35,7 +40,23 @@
 		"eslint-plugin-import": "^2.26.0",
 		"eslint-plugin-prettier": "^4.2.1",
 		"markdownlint-cli": "^0.32.2",
-		"prettier": "^2.7.1"
+		"postcss": "^8.4.19",
+		"postcss-scss": "^4.0.5",
+		"prettier": "^2.7.1",
+		"stylelint": "^14.15.0",
+		"stylelint-find-new-rules": "^4.0.0",
+		"stylelint-high-performance-animation": "^1.6.0",
+		"stylelint-order": "^5.0.0",
+		"stylelint-prettier": "^2.0.0",
+		"stylelint-scss": "^4.3.0"
 	},
-	"peerDependencies": {}
+	"peerDependencies": {
+		"postcss": "^8.4.19",
+		"postcss-scss": "^4.0.5",
+		"stylelint": "^14.15.0",
+		"stylelint-high-performance-animation": "^1.6.0",
+		"stylelint-order": "^5.0.0",
+		"stylelint-prettier": "^2.0.0",
+		"stylelint-scss": "^4.3.0"
+	}
 }
