@@ -34,7 +34,7 @@
 		"@meteozdemir/stylelint-config-core": "^1.0.0"
 	},
 	"devDependencies": {
-		"@meteozdemir/eslint-config-core": "^1.0.0",
+		"@meteozdemir/eslint-config-core": "^1.1.0",
 		"@meteozdemir/markdownlint-config-core": "^1.0.0",
 		"@meteozdemir/prettier-config-core": "^1.0.0",
 		"eslint": "^8.28.0",
