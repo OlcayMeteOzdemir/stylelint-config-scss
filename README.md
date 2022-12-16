@@ -25,47 +25,47 @@ npm i -D @meteozdemir/stylelint-config-scss stylelint stylelint-scss postcss pos
 
 ## Usage
 
-A `.stylelintrc.js` file will be automatically created in the root of your project with:
+A `.stylelintrc` file will be automatically created in the root of your project with:
 
-```javascript
-module.exports = {
-    extends: [
-        '@meteozdemir/stylelint-config-scss',
-        '@meteozdemir/stylelint-config-scss/rules/prettier',
+```json
+{
+    "extends": [
+        "@meteozdemir/stylelint-config-scss",
+        "@meteozdemir/stylelint-config-scss/rules/prettier"
     ],
-    rules: {},
-};
+    "rules": {}
+}
 ```
 
-If the file is not created automatically by any reason, simply create a `.stylelintrc.js` file in the root of project and copy code above.
+If the file is not created automatically by any reason, simply create a `.stylelintrc` file in the root of project and copy code above.
 
 ## @meteozdemir/stylelint-config-scss/rules/prettier
 
 Prettier is enabled by default with this package and `@meteozdemir/stylelint-config-scss/rules/prettier` disables StyleLint rules that might conflict with Prettier.
 
-If you don't want to use Prettier, remove `'@meteozdemir/stylelint-config-scss/rules/prettier'` from `.stylelintrc.js` file.
+If you don't want to use Prettier, remove `'@meteozdemir/stylelint-config-scss/rules/prettier'` from `.stylelintrc` file.
 
-```javascript
-module.exports = {
-    extends: ['@meteozdemir/stylelint-config-scss'],
-    rules: {},
-};
+```json
+{
+    "extends": ["@meteozdemir/stylelint-config-scss"],
+    "rules": {}
+}
 ```
 
 ## Rule Override
 
-Add any rule you want to override to rules object in `.stylelintrc.js` file.
+Add any rule you want to override to rules object in `.stylelintrc` file.
 
-```javascript
-module.exports = {
-    extends: [
-        '@meteozdemir/stylelint-config-scss',
-        '@meteozdemir/stylelint-config-scss/rules/prettier',
+```json
+{
+    "extends": [
+        "@meteozdemir/stylelint-config-scss",
+        "@meteozdemir/stylelint-config-scss/rules/prettier"
     ],
-    rules: {
+    "rules": {
         // ...
-        'scss/at-import-partial-extension': 'always',
-        'scss/at-mixin-argumentless-call-parentheses': 'never',
-    },
-};
+        "scss/at-import-partial-extension": "always",
+        "scss/at-mixin-argumentless-call-parentheses": "never",
+    }
+}
 ```
