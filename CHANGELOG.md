@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.2 - December 16, 2022
+
+  - Updated: @meteozdemir/stylelint-config-core 1.1.0 to 1.1.1
+  - Changed: Some code examples changed from `README.md`
+  - Fixed: Post install script changed for support ES Module
+
 ## v1.0.1 - December 12, 2022
 
   - Updated: StyleLint 14.15.0 to 14.16.0
