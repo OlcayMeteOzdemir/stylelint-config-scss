@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const configPath = path.join(process.env.INIT_CWD, '.stylelintrc.js');
+const configPath = path.join(process.env.INIT_CWD, '.stylelintrc');
 const ignorePath = path.join(process.env.INIT_CWD, '.stylelintignore');
 
 if (fs.existsSync(configPath)) {
@@ -19,7 +19,7 @@ if (fs.existsSync(configPath)) {
 if (!fs.existsSync(configPath)) {
 	fs.writeFileSync(
 		configPath,
-		"module.exports = {\n\textends: [\n\t\t'@meteozdemir/stylelint-config-scss',\n\t\t'@meteozdemir/stylelint-config-scss/rules/prettier',\n\t],\n\trules: {},\n};\n",
+		'{\n\t"extends": [\n\t\t"@meteozdemir/stylelint-config-scss",\n\t\t"@meteozdemir/stylelint-config-scss/rules/prettier"\n\t],\n\t"rules": {}\n}\n',
 	);
 }
 
