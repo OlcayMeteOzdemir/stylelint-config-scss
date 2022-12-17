@@ -1,0 +1,4 @@
+{
+	"extends": ["./index", "./rules/prettier"],
+	"rules": {}
+}
