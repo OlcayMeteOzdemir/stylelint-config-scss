@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.3 - January 3, 2023
+
+  - Updated: Stylelint 14.16.0 to 14.16.1
+  - Updated: @meteozdemir/stylelint-config-core 1.1.1 to 1.1.2
+
 ## v1.0.2 - December 16, 2022
 
   - Updated: @meteozdemir/stylelint-config-core 1.1.0 to 1.1.1
