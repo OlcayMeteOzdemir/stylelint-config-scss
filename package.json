@@ -1,6 +1,6 @@
 {
 	"name": "@meteozdemir/stylelint-config-scss",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Custom StyleLint settings for SCSS as an extensible shared config.",
 	"main": "index.js",
 	"scripts": {
