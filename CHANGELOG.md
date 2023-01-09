@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.4 - January 9, 2023
+
+  - Updated: postcss 8.4.20 to 8.4.21
+  - Updated: stylelint-order 5.0.0 to 6.0.1
+  - Updated: @meteozdemir/stylelint-config-core 1.1.2 to 1.1.3
+
 ## v1.0.3 - January 3, 2023
 
   - Updated: Stylelint 14.16.0 to 14.16.1
