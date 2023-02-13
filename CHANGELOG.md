@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.5 - February 13, 2023
+
+  - Updated: stylelint from 14.16.1 to 15.1.0
+  - Updated: stylelint-scss 4.3.0 to 4.4.0
+  - Updated: stylelint-order 6.0.1 to 6.0.2
+  - Updated: @meteozdemir/stylelint-config-core 1.1.3 to 1.2.3
+  - Removed: Deprecated rules from stylelint-core file
+
 ## v1.0.4 - January 9, 2023
 
   - Updated: postcss 8.4.20 to 8.4.21
