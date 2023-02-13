@@ -20,11 +20,5 @@ module.exports = {
 				ignoreAtRules: ['else'],
 			},
 		],
-		'block-closing-brace-newline-after': [
-			'always',
-			{
-				ignoreAtRules: ['if', 'else'],
-			},
-		],
 	},
 };
