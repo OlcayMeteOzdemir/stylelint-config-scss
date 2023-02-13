@@ -31,7 +31,7 @@
 	"license": "MIT",
 	"homepage": "https://github.com/OlcayMeteOzdemir/stylelint-config-scss#readme",
 	"dependencies": {
-		"@meteozdemir/stylelint-config-core": "^1.1.3"
+		"@meteozdemir/stylelint-config-core": "^1.2.3"
 	},
 	"devDependencies": {
 		"@meteozdemir/eslint-config-core": "^1.3.4",
