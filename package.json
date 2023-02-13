@@ -1,6 +1,6 @@
 {
 	"name": "@meteozdemir/stylelint-config-scss",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Custom StyleLint settings for SCSS as an extensible shared config.",
 	"main": "index.js",
 	"scripts": {
@@ -12,9 +12,9 @@
 		"md-fix": "markdownlint --fix **/*.md",
 		"prettier-lint": "prettier --check **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
 		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
-		"rules:unused": "stylelint-find-new-rules -u .stylelintrc.js",
-		"rules:deprecated": "stylelint-find-new-rules -d --no-u .stylelintrc.js",
-		"rules:invalid": "stylelint-find-new-rules -i --no-u .stylelintrc.js",
+		"rules:unused": "stylelint-find-new-rules -u .stylelintrc",
+		"rules:deprecated": "stylelint-find-new-rules -d --no-u .stylelintrc",
+		"rules:invalid": "stylelint-find-new-rules -i --no-u .stylelintrc",
 		"postinstall": "node ./scripts/postinstall.js"
 	},
 	"repository": {
